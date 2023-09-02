@@ -1,4 +1,6 @@
+import sys
 import markdown
+
 html =  markdown.markdown(sys.argv[1])
 with open(sys.argv[1], 'r') as md:
     mdtext = md.read()
