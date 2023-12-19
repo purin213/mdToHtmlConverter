@@ -8,3 +8,4 @@ python3 main.py {markdown path} {output html path}
 
 Any existing file in the output path are not protected and will be overwritten.
 If the output path doesn't exist, an html file will be created.
+
